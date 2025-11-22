@@ -1,0 +1,63 @@
+/* Reset some default browser styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling: Clean, centered layout with a subtle background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* H1 styling: Large, welcoming title */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* H2 styling: Subheadings for links */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+/* Paragraph styling: Basic text */
+p {
+  margin-bottom: 20px;
+}
+
+/* Link styling: Buttons-like appearance for better UX */
+a {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+/* Specific styling for the urgent link to make it stand out */
+body:nth-of-type(2) a {
+  background-color: #e74c3c;
+}
+
+body:nth-of-type(2) a:hover {
+  background-color: #c0392b;
+}
